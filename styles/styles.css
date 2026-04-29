@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: royalblue;
+    border: 2px black solid;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+    background-color: lightskyblue;
+    border: 2px black solid;
+}
+
+.nav {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#p1 {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#p2 {
+    font-size: 22px;
+}
+
+#p3 {
+    font-size: 22px;
+}
+
+.em {
+    font-size: 50px;
+}
+
+.footer {
+    font-size: 15px;
+    background-color: royalblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border: 2px black solid;
+}
+
+.home-images {
+    border: 3px solid black;
+    border-radius: .75rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.game-details {
+    text-align: center;
+    font-size: 30px;
+}
+
+.eow-images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: .75rem;
+    border: 1px solid black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.eow-images:hover {
+    transform: scale(1.5);
+}
+
+.p1EOW {
+    font-size: 22px;
+    text-align: center;
+    width: 340px;
+    margin: 10px auto;
+    background-color: ghostwhite;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    padding: 1rem;
+    gap: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.p1EOW:hover {
+    transform: scale(1.05);
+}
+.game-grid {
+    justify-content: center;
+    align-content: flex-start;
+    gap: 1rem;
+    margin-inline: auto;
+    max-width: 1200px;
+}
+
+/*.game_grid > p {*/
+/*    justify-content: center;*/
+/*}*/
+
+.p1Europa {
+    font-size: 22px;
+    text-align: center;
+    width: 340px;
+    margin: 10px auto;
+    background-color: ghostwhite;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    padding: 1rem;
+    gap: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.p1Europa:hover {
+    transform: scale(1.05);
+}
+
+.europa-images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: .75rem;
+    border: 1px solid black;
+    transition: transform 0.5s ease-in-out;
+}
+.europa-images:hover {
+    transform: scale(1.5);
+}
+
+button {
+    background-color: ghostwhite;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+.hue-images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: .75rem;
+    border: 1px solid black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hue-images:hover {
+    transform: scale(1.5);
+}
+
+.p1hue {
+    font-size: 22px;
+    text-align: center;
+    width: 340px;
+    margin: 10px auto;
+    background-color: ghostwhite;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    padding: 1rem;
+    gap: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.p1hue:hover {
+    transform: scale(1.05);
+}
+
+.smushi-images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: .75rem;
+    border: 1px solid black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.smushi-images:hover {
+    transform: scale(1.5);
+}
+
+.p1smushi {
+    font-size: 22px;
+    text-align: center;
+    width: 340px;
+    margin: 10px auto;
+    background-color: ghostwhite;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    padding: 1rem;
+    gap: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.p1smushi:hover {
+    transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#average-score {
+    text-align: center;
+    font-size: 50px;
+}
+
+#home-button a:link{
+    color: black;
+}
+#home-button a:visited {
+    color: cadetblue;
+}
+#home-button a:hover {
+    color: white;
+}
